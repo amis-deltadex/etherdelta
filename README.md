@@ -1,7 +1,7 @@
-# etherdelta
+# Amis-DeltaDex
 
-- git copy https://github.com/LaGuer/etherdelta
+- git copy https://github.com/amis-deltadex/etherdelta
 
 visualize with:
 
-- https://LaGuer.github.io/etherdelta
+- https://amis-deltadex.github.io/etherdelta
