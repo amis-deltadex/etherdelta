@@ -38,7 +38,7 @@ module.exports = {
   gasWithdraw: 250000,
   gasTrade: 250000,
   gasOrder: 250000,
-  ordersOnchain: false,
+  ordersOnchain: true,
   apiServer: 'https://api.etherdelta.com',
   // apiServer: 'http://localhost:3000',
   userCookie: 'EtherDelta',
@@ -51,6 +51,11 @@ module.exports = {
       addr: '0x0000000000000000000000000000000000000000',
       name: 'ETH',
       decimals: 18,
+    },
+    {
+      addr: '0x949bed886c739f1A3273629b3320db0C5024c719',
+      name: 'AMIS',
+      decimals: 9,
     },
     {
       addr: '0xd8912c10681d8b21fd3742244f44658dba12264e',
@@ -240,6 +245,7 @@ module.exports = {
   ],
   defaultPair: { token: 'PLU', base: 'ETH' },
   pairs: [
+    { token: 'AMIS', base: 'ETH' },
     { token: 'PLU', base: 'ETH' },
     { token: '1ST', base: 'ETH' },
     { token: 'EDG', base: 'ETH' },
