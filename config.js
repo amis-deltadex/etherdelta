@@ -39,7 +39,7 @@ module.exports = {
   gasTrade: 250000,
   gasOrder: 250000,
   ordersOnchain: true,
-  apiServer: 'https://api.etherdelta.com',
+  apiServer: 'https://api.forkdelta.com',
   // apiServer: 'http://localhost:3000',
   userCookie: 'EtherDelta',
   eventsCacheCookie: 'EtherDelta_eventsCache',
