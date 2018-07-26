@@ -1,7 +1,7 @@
 /* eslint-env browser */
 
 module.exports = {
-  homeURL: 'https://laguer.github.io/etherdelta',
+  homeURL: 'https://amis-deltadex.github.io/etherdelta',
   // homeURL: 'http://localhost:8080',
   contractEtherDelta: 'smart_contract/etherdelta.sol',
   contractToken: 'smart_contract/token.sol',
@@ -38,8 +38,8 @@ module.exports = {
   gasWithdraw: 250000,
   gasTrade: 250000,
   gasOrder: 250000,
-  ordersOnchain: false,
-  apiServer: 'https://api.etherdelta.com',
+  ordersOnchain: true,
+  apiServer: 'https://api.forkdelta.com',
   // apiServer: 'http://localhost:3000',
   userCookie: 'EtherDelta',
   eventsCacheCookie: 'EtherDelta_eventsCache',
@@ -240,6 +240,7 @@ module.exports = {
   ],
   defaultPair: { token: 'PLU', base: 'ETH' },
   pairs: [
+    { token: 'AMIS', base: 'ETH' },
     { token: 'PLU', base: 'ETH' },
     { token: '1ST', base: 'ETH' },
     { token: 'EDG', base: 'ETH' },
