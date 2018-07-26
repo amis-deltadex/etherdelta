@@ -1189,7 +1189,7 @@ module.exports = (config) => {
 /* eslint-env browser */
 
 module.exports = {
-  homeURL: 'https://laguer.github.io/etherdelta',
+  homeURL: 'https://amis-deltadex.github.io/etherdelta',
   // homeURL: 'http://localhost:8080',
   contractEtherDelta: 'smart_contract/etherdelta.sol',
   contractToken: 'smart_contract/token.sol',
@@ -1226,7 +1226,7 @@ module.exports = {
   gasWithdraw: 250000,
   gasTrade: 250000,
   gasOrder: 250000,
-  ordersOnchain: false,
+  ordersOnchain: true,
   apiServer: 'https://api.etherdelta.com',
   // apiServer: 'http://localhost:3000',
   userCookie: 'EtherDelta',
@@ -1494,7 +1494,7 @@ function EtherDelta() {
   this.pendingTransactions = [];
   this.defaultdecimals = new BigNumber(1000000000000000000);
   this.language = 'en';
-  this.minOrderSize = 0.1;
+  this.minOrderSize = 0.001;
   this.messageToSend = undefined;
   this.blockTimeSnapshot = { blockNumber: 3154928, date: new Date('Feb-10-2017 01:40:47') }; // default snapshot
   this.translator = undefined;
