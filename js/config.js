@@ -2,7 +2,7 @@
 /* eslint-env browser */
 
 module.exports = {
-  homeURL: 'https://laguer.github.io/etherdelta/',
+  homeURL: 'https://amis-deltadex.github.io/etherdelta/',
   // homeURL: 'http://localhost:8080',
   contractEtherDelta: 'smart_contract/etherdelta.sol',
   contractToken: 'smart_contract/token.sol',
