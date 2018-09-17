@@ -39,7 +39,7 @@ module.exports = {
   gasTrade: 250000,
   gasOrder: 250000,
   ordersOnchain: false,
-  apiServer: 'https://api.etherdelta.com',
+  apiServer: 'https://socket01.etherdelta.com',
   // apiServer: 'http://localhost:3000',
   userCookie: 'EtherDelta',
   eventsCacheCookie: 'EtherDelta_eventsCache',
@@ -238,7 +238,7 @@ module.exports = {
       decimals: 6,
     },
   ],
-  defaultPair: { token: 'PLU', base: 'ETH' },
+  defaultPair: { token: 'AMIS', base: 'ETH' },
   pairs: [
     { token: 'AMIS', base: 'ETH' },
     { token: 'PLU', base: 'ETH' },
